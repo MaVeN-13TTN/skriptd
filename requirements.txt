@@ -1,0 +1,42 @@
+Flask==3.0.0
+Flask-PyMongo==2.3.0
+Flask-JWT-Extended==4.6.0
+Flask-SocketIO==5.3.6
+Flask-Cors==4.0.0
+python-dotenv==1.0.0
+pymongo==4.6.1
+bcrypt==4.1.2
+python-jose==3.3.0
+eventlet==0.33.3
+dnspython==2.4.2
+email-validator==2.1.0.post1
+python-socketio==5.10.0
+Werkzeug==3.0.1
+PyJWT==2.8.0
+six==1.16.0
+cryptography==41.0.7
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-flask==1.3.0
+pytest-mock==3.10.0
+pytest-timeout==2.1.0
+
+# API Documentation
+apispec==6.3.0
+apispec-webframeworks==0.5.2
+flask-apispec==0.11.4
+marshmallow==3.20.1
+
+# Development
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+
+# Email
+flask-mail==0.9.1
+itsdangerous==2.1.2
+
+# File Handling
+python-magic==0.4.27
