@@ -72,11 +72,19 @@ pip install -r requirements.txt  # This installs all required dependencies
 
 3. Configure environment variables:
 ```bash
-cp .env.template .env
-# Edit .env with your configuration
+cd backend
+cp .env.example .env
+# Edit .env with your configuration values
+# Make sure to update MongoDB URI, JWT secret, and other required settings
 ```
 
-4. Set up the frontend:
+4. Test the database connection:
+```bash
+python3 test_db.py
+# You should see "Successfully connected to MongoDB!" and a list of available collections
+```
+
+5. Set up the frontend:
 ```bash
 cd ../frontend
 npm install
